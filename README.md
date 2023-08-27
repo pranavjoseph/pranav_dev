@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a software engineer.<br>Some technologies I enjoy working with include Vue, Nuxt, Laravel.<br>I'm passionate about making contributing to open-source.
+Greetings! I'm Pranav Joseph, a dedicated software developer with a rich tapestry of 6 years in the realm of technology. From crafting code to crafting experiences, I'm on a mission to create meaningful digital solutions that leave an impact.
 
 
 ## 🌐 Socials:
