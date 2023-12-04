@@ -1,4 +1,4 @@
-# 💫 About Me:
+.# 💫 About Me:
 Greetings! I'm Pranav Joseph, a dedicated software developer with a rich tapestry of 6 years in the realm of technology. From crafting code to crafting experiences, I'm on a mission to create meaningful digital solutions that leave an impact.
 
 
@@ -16,4 +16,4 @@ Greetings! I'm Pranav Joseph, a dedicated software developer with a rich tapestr
 [![](https://visitcount.itsvg.in/api?id=pranavjoseph&icon=0&color=0)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/https://www.buymeacoffee.com/pranavjoseph) 
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/pranavjoseph) 
