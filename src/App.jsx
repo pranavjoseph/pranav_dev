@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './App.css'
 import HomePage from './pages/Home'
 import PageNotFound from './pages/404';
+import { BASE_URL } from './utils/constants';
 
 
 function RedirectHandler() {
@@ -20,11 +21,9 @@ function RedirectHandler() {
 }
 
 function App() {
-  const isProduction = import.meta.env.PROD;
-  const basename = isProduction ? '/pranav_dev' : '/';
 
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename={BASE_URL}>
       <RedirectHandler />
       <Routes>
         <Route index path='/' element={<HomePage />} />
