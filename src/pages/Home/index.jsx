@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <>
             <header className="flex flex-col justify-center items-center h-screen text-center bg-gray-50" onClick={redirectToLinkedIn}>
-                <h1 className="text-5xl font-extrabold text-blue-800 mb-4">
+                <h1 className="text-5xl font-extrabold text-blue-800 mb-4 cursor-pointer">
                     Hello, I'm Pranav Joseph 👋
                 </h1>
                 <p className="text-xl text-gray-600">
