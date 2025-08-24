@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
-import HomePage from './pages/Home/Home'
+import HomePage from './pages/Home'
+import PageNotFound from './pages/404';
 
 function App() {
   const isProduction = import.meta.env.PROD;
@@ -10,6 +11,7 @@ function App() {
     <BrowserRouter basename={basename}>
       <Routes>
         <Route index path='/' element={<HomePage />} />
+        <Route path='*' element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   )
