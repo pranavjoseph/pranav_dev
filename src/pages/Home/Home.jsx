@@ -11,7 +11,7 @@ function HomePage() {
                     Hello, I'm Pranav Joseph 👋
                 </h1>
                 <p className="text-xl text-gray-600">
-                    Software Developer | Tech Enthusiast | Future Dad 💙
+                    Software Developer | Tech Enthusiast | Future Dad ❤️
                 </p>
             </header>
         </>
