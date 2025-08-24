@@ -1,7 +1,12 @@
 function HomePage() {
+
+    function redirectToLinkedIn() {
+        window.open("https://www.linkedin.com/in/pranav-joseph/", "_blank");
+    }
+
     return (
         <>
-            <header className="flex flex-col justify-center items-center h-screen text-center bg-gray-50">
+            <header className="flex flex-col justify-center items-center h-screen text-center bg-gray-50" onClick={redirectToLinkedIn}>
                 <h1 className="text-5xl font-extrabold text-blue-800 mb-4">
                     Hello, I'm Pranav Joseph 👋
                 </h1>
