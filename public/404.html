@@ -7,9 +7,12 @@
     <meta http-equiv="refresh" content="0; url=/" />
     <script type="text/javascript">
         // Redirect to index.html but preserve path
-        var l = window.location;
-        var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?p=' + l.pathname.replace(/^\//, '') + l.search + l.hash;
-        window.location.replace(redirect);
+        // var l = window.location;
+        // var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?p=' + l.pathname.replace(/^\//, '') + l.search + l.hash;
+        // window.location.replace(redirect);
+        // Simple redirect to index.html for SPA
+        sessionStorage.redirect = location.pathname + location.search + location.hash;
+        location.replace('/pranav_dev/');
     </script>
 </head>
 
