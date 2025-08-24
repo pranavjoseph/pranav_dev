@@ -6,13 +6,13 @@
     <title>Redirecting…</title>
     <meta http-equiv="refresh" content="0; url=/" />
     <script type="text/javascript">
-        // Redirect to index.html but preserve path
-        // var l = window.location;
-        // var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?p=' + l.pathname.replace(/^\//, '') + l.search + l.hash;
-        // window.location.replace(redirect);
-        // Simple redirect to index.html for SPA
-        sessionStorage.redirect = location.pathname + location.search + location.hash;
-        location.replace('/pranav_dev/');
+        (function () {
+            var l = window.location;
+            // build redirect back to your base path with ?p=
+            var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/pranav_dev/?p=' +
+                encodeURIComponent(l.pathname.replace(/^\/pranav_dev/, '') + l.search + l.hash);
+            window.location.replace(redirect);
+        })();
     </script>
 </head>
 
