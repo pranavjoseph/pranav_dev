@@ -3,8 +3,11 @@ import './App.css'
 import HomePage from './pages/Home/Home'
 
 function App() {
+  const isProduction = import.meta.env.PROD;
+  const basename = isProduction ? '/pranav_dev' : '/';
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route index path='/' element={<HomePage />} />
       </Routes>
