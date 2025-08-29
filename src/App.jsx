@@ -4,6 +4,7 @@ import './App.css'
 import HomePage from './pages/Home'
 import PageNotFound from './pages/404';
 import { BASE_URL } from './utils/constants';
+import ContactPage from './pages/Contact';
 
 
 function RedirectHandler() {
@@ -27,6 +28,7 @@ function App() {
       <RedirectHandler />
       <Routes>
         <Route index path='/' element={<HomePage />} />
+        <Route path='/contact' element={<ContactPage />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
