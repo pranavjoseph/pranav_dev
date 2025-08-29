@@ -2,15 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom dark mode styles */
-body {
-  background-color: #fff;
-  color: #1a202c;
-  transition-property: color, background-color;
+
+/* Smooth transitions for dark mode */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Dark mode styles */
-.dark body {
-  background-color: #1a202c;
-  color: #f3f4f6;
+/* Wave animation keyframes */
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Apply the animation */
+.animate-wave {
+  animation: wave 2s linear infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
