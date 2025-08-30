@@ -22,7 +22,7 @@ function HomePage() {
             {/* Main Content */}
             <header className="flex flex-col justify-center items-center h-screen text-center bg-white dark:bg-gray-800 transition-colors duration-300">
                 <h1 className="text-5xl font-extrabold text-blue-800 dark:text-blue-200 mb-4 cursor-pointer">
-                    Hello, I'm Pranav Joseph <span role="img" aria-label="waving hand" className="inline-block animate-wave origin-[70%_70%]">👋</span>
+                    Hello, I'm Pranav Joseph <Link to="/contact"><span role="img" aria-label="waving hand" className="inline-block animate-wave origin-[70%_70%]">👋</span></Link>
                 </h1>
                 {/* <Link to="/contact" > */}
                 <p className="text-xl text-gray-600 dark:text-gray-300 transition-colors duration-200 cursor-pointer" onClick={redirectToLinkedIn}>
