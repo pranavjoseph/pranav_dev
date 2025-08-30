@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pranavjoseph.github.io/pranav_dev/sitemap.xml
