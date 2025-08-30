@@ -29,6 +29,38 @@ function HomePage() {
                     Software Developer | Tech Enthusiast | Full-Stack Developer | Future Dad <span className="animate-pulse">❤️</span>
                 </p>
                 {/* </Link> */}
+
+                {/* 🔥 Hidden SEO Content (Google sees it, users don't) */}
+                <div className="sr-only">
+                    <h2>Freelance Developer near London</h2>
+                    <p>
+                        I am <strong>Pranav Joseph</strong>, a{" "}
+                        <strong>freelance developer near London</strong> providing{" "}
+                        <strong>SEO freelance</strong> and{" "}
+                        <strong>web development services</strong>. I help businesses and
+                        startups improve their search visibility and grow online.
+                    </p>
+
+                    <p>
+                        My expertise includes{" "}
+                        <strong>PHP development, WordPress customization, Node.js
+                            applications, and React front-end solutions</strong>. Whether you
+                        need a <strong>developer freelancer</strong> to create scalable web
+                        apps, optimize your website for SEO, or build an e-commerce store, I
+                        can help.
+                    </p>
+
+                    <p>
+                        Services I offer: full-stack web development,{" "}
+                        <strong>SEO consulting</strong>,{" "}
+                        <strong>WordPress website development</strong>,{" "}
+                        <strong>custom PHP solutions</strong>,{" "}
+                        <strong>React & Node.js applications</strong>, API integrations, and
+                        cloud deployment. I specialize in supporting small businesses and
+                        individuals looking for a reliable{" "}
+                        <strong>freelancer near London</strong>.
+                    </p>
+                </div>
             </header>
         </>
     )
