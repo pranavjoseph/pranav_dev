@@ -26,7 +26,7 @@ function HomePage() {
                 </h1>
                 {/* <Link to="/contact" > */}
                 <p className="text-xl text-gray-600 dark:text-gray-300 transition-colors duration-200 cursor-pointer" onClick={redirectToLinkedIn}>
-                    Software Developer | Tech Enthusiast | Future Dad <span className="animate-pulse">❤️</span>
+                    Software Developer | Tech Enthusiast | Full-Stack Developer | Future Dad <span className="animate-pulse">❤️</span>
                 </p>
                 {/* </Link> */}
             </header>
