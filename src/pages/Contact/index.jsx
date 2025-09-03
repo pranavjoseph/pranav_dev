@@ -21,7 +21,7 @@ function ContactPage() {
             </h1>
             <p className="text-gray-600 dark:text-gray-300 mb-8 text-center max-w-lg">
                 Let’s connect! Feel free to reach out for freelance opportunities, collaborations,
-                or just to say hello. 🚀 <br /><Link to="/">🏡</Link>
+                or just to say hello. 🚀 <br /><Link to="/"><span className="text-2xl">🏡</span></Link>
             </p>
 
             <form
